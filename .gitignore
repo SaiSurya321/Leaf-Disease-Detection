@@ -1,0 +1,5 @@
+*.keras
+*.h5
+*.pth
+/Best Model Code/
+/Code Snippets/
