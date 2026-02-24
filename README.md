@@ -1,2 +1,42 @@
-# Leaf Disease Detection
-“In this project, I built a deep learning model using CNNs to detect plant leaf diseases. I trained it on images of healthy and diseased leaves from different plant types. After training, I evaluated the model using metrics like precision, recall, and F1-score to make sure it worked well across all disease classes. I then deployed the model as a Streamlit web app, where users can upload a leaf image and instantly get the disease classification. The idea was to make a real-time, accessible tool for farmers and researchers to detect plant diseases early.
+# 🌿 Leaf Disease Detection using CNN
+
+A Deep Learning-based web application that identifies diseases in plant leaves to help farmers and researchers detect crop issues early.
+
+---
+
+## 📖 Project Overview
+Early detection of plant diseases is vital for agriculture to prevent food loss. This project uses a **Convolutional Neural Network (CNN)** trained on diverse leaf images to classify whether a plant is healthy or infected. The final model is deployed as a **Streamlit** web app for an accessible, real-time user experience.
+
+## 🛠️ Features
+* **Real-time Detection:** Upload a leaf image and get an instant disease classification.
+* **Scalable Tech:** Built using TensorFlow/Keras for high-performance deep learning.
+* **Interactive UI:** A simple, clean interface built with Streamlit for non-technical users.
+
+## 📊 Technical Stack
+* **Language:** Python
+* **Deep Learning:** TensorFlow, Keras (CNN)
+* **Image Processing:** OpenCV, PIL
+* **Web Framework:** Streamlit
+* **Analysis:** NumPy, Pandas, Scikit-learn (Precision, Recall, F1-Score)
+
+
+
+## 🚀 How to Run Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/SaiSurya321/Leaf-Disease-Detection.git](https://github.com/SaiSurya321/Leaf-Disease-Detection.git)
+   cd Leaf-Disease-Detection
+
+2. Install dependencies:
+
+Bash
+pip install -r requirements.txt
+
+3. Model File:
+Note: Due to GitHub's 100MB limit, ensure your .keras model file is in the root directory.
+
+4. Run the application:
+   Bash
+   streamlit run app.py
+
